@@ -1,0 +1,17 @@
+{
+  "name": "gtest",
+  "version": "0.1.0",
+  "scripts": {
+    "migrate": "truffle migrate --reset"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "truffle": "^5.0.4",
+    "truffle-contract": "^4.0.5"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^3.3.0",
+    "solc": "0.5.16"
+  }
+}

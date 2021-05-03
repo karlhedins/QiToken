@@ -2,7 +2,7 @@
 
 pragma solidity ^0.6.0;
 
-import "./openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
+import "./ERC20.sol";
 
 contract QiToken is ERC20 {
 	uint256 private _initialSupply=1000000000*10**18;
