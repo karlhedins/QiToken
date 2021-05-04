@@ -7,11 +7,13 @@ module.exports = {
       host: '127.0.0.1',
       port: 23889,
       network_id: '*',
+      gasPrice: '0x64',
     },
   },
   compilers: {
     solc: {
-      version: '0.4.25'    // Fetch exact version from solc-bin (default: truffle's version)
+      version: '0.6.12',    // Fetch exact version from solc-bin (default: truffle's version)
+      evmVersion: "constantinople"
     }
   },
   db: {
